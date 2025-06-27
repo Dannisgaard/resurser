@@ -1,5 +1,5 @@
 # Dockerfile
-FROM nginx:stable-alpine
+FROM --platform=linux/arm64 nginx:stable-alpine
 
 # Optional: copy your own config or HTML files
 # COPY ./my-nginx.conf /etc/nginx/nginx.conf
